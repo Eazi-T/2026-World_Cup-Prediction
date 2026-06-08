@@ -100,7 +100,7 @@ Open `notebook.ipynb` and run cells **top to bottom** in order:
 7. **Knockout bracket** — resolve bracket slots and predict all 32 KO matches
 8. **Submission export** — generate final CSV
 
-> ⚠️ The Monte Carlo simulation cell (50,000 runs) is commented out — it is no longer needed for bracket resolution and significantly increases runtime. Re-enable if you want probabilistic finish percentages for analysis.
+> ⚠️ The Monte Carlo simulation cell (50,000 runs) is commented out — Re-enable if you want probabilistic finish percentages for analysis.
 
 ---
 
@@ -108,6 +108,7 @@ Open `notebook.ipynb` and run cells **top to bottom** in order:
 
 ```
 ├── notebook.ipynb          # Main prediction notebook
+├── data
 ├── README.md               # This file
 ```
 
@@ -126,7 +127,3 @@ Open `notebook.ipynb` and run cells **top to bottom** in order:
 ## 👤 Author
 
 **Israel Aiyegbeni (Eazi)**  
-Data Scientist | Lagos, Nigeria  
-B.Sc. Agricultural & Environmental Engineering, University of Ibadan  
-
-[LinkedIn](https://linkedin.com/in/) · [GitHub](https://github.com/)
